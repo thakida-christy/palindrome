@@ -12,7 +12,7 @@
     color: default;
   }
   to {
-    color: lightgreen;
+    color: lightblue;
   }
 }
 
@@ -21,7 +21,7 @@ body {
   background-color: tomato;
   padding-top: 15%;
   animation-name: textmove;
-  animation-duration: 100s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
 }
 
@@ -44,7 +44,7 @@ h1,
   width: 8%;
   border-radius: 20px;
   animation-name: textcolor;
-  animation-duration: 100s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
 }
 
@@ -63,7 +63,7 @@ input[type="text"] {
   height: 30px;
   text-align: center;
   animation-name: textmove;
-  animation-duration: 100s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
 }
 ::placeholder {
