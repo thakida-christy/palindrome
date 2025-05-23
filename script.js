@@ -1,16 +1,20 @@
+
 const button1 = document.querySelector("#submit");
 const button2 = document.querySelector("#reset");
 let result = document.querySelector("#result");
 let frm1 = document.getElementById("frm1").value;
+let str;
+
 
 function reset() {
   document.getElementById("frm1").value = "";
-  result.textContent = "";
 }
 
+
+
 function buttonClick() {
-  console.log("%s", frm1);
-  let str = "";
+  str='';
+  console.log("%s\n", frm1);
   for (let i = frm1.length - 1; i >= 0; i--) {
     str += frm1[i];
   }
@@ -22,5 +26,6 @@ function buttonClick() {
   }
 }
 
-button1.onclick = buttonClick;
-button2.onclick = reset;
+button1.addEventListener("click", buttonClick);
+
+button2.addEventListener("click", reset);

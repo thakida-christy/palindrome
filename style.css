@@ -1,6 +1,6 @@
 @keyframes textmove {
   from {
-    background-color: default;
+    background-color: black;
   }
   to {
     background-color: black;
@@ -9,7 +9,7 @@
 
 @keyframes textcolor {
   from {
-    color: default;
+    color: black;
   }
   to {
     color: black;
@@ -18,7 +18,6 @@
 
 body {
   text-align: center;
-  background-color: tomato;
   padding-top: 15%;
   animation-name: textmove;
   animation-duration: 20s;
@@ -37,7 +36,6 @@ h1,
 #submit,
 #reset {
   background-color: white;
-  color: tomato;
   text-decoration: solid;
   height: 30px;
   border-style: none;
@@ -55,7 +53,7 @@ h1 {
   color: white;
 }
 input[type="text"] {
-  background-color: tomato;
+
   border-color: white;
   width: 50%;
   border-style: solid;
