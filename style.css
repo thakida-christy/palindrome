@@ -3,7 +3,7 @@
     background-color: default;
   }
   to {
-    background-color: lightblue;
+    background-color: black;
   }
 }
 
@@ -12,7 +12,7 @@
     color: default;
   }
   to {
-    color: lightblue;
+    color: black;
   }
 }
 
